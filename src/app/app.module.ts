@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
